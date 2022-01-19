@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T21:13:32.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="O3TDFbo4kNR_o75y04UO" version="16.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-01-19T21:35:25.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="d8pBk9-y4DemrSGkNVHB" version="16.3.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Main">
-    <mxGraphModel dx="2607" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1203" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -182,7 +182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qFhlYbCngjARJZZOwYcz" name="checkWord">
-    <mxGraphModel dx="1203" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="745" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="jmRNwSgweu1uni4Kwibr-0" />
         <mxCell id="jmRNwSgweu1uni4Kwibr-1" parent="jmRNwSgweu1uni4Kwibr-0" />
@@ -195,30 +195,30 @@
         <mxCell id="c6vgpfZv6U2L_3fP67-e-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
           <mxGeometry width="560" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-0" value="Is letter[index] in &lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;word&lt;/font&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
-          <mxGeometry x="50" y="116" width="140" height="80" as="geometry" />
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-0" value="Is letter[index] in &lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;masterWord&lt;/font&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
+          <mxGeometry x="35" y="116" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-2" value="&lt;font color=&quot;#0000ff&quot;&gt;result &lt;/font&gt;+= &quot;R&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-2" value="&lt;span style=&quot;color: rgb(51 , 51 , 255)&quot;&gt;guessResult&amp;nbsp;&lt;/span&gt;+= &quot;R&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
           <mxGeometry x="240" y="126" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c6vgpfZv6U2L_3fP67-e-8" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#FF3333;" parent="c6vgpfZv6U2L_3fP67-e-22" source="c6vgpfZv6U2L_3fP67-e-0" target="c6vgpfZv6U2L_3fP67-e-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-3" value="Does &lt;font color=&quot;#0000ff&quot;&gt;index &lt;/font&gt;== &lt;font color=&quot;#0000ff&quot;&gt;word&lt;/font&gt;.find(letter)?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
-          <mxGeometry x="50" y="256" width="140" height="80" as="geometry" />
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-3" value="Does&amp;nbsp;&lt;font color=&quot;#0000ff&quot;&gt;index&lt;/font&gt;==&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;masterWord&lt;/span&gt;.find(letter)?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
+          <mxGeometry x="20" y="256" width="170" height="94" as="geometry" />
         </mxCell>
         <mxCell id="c6vgpfZv6U2L_3fP67-e-4" value="&lt;font color=&quot;#000000&quot;&gt;Yes&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;strokeColor=#009900;" parent="c6vgpfZv6U2L_3fP67-e-22" source="c6vgpfZv6U2L_3fP67-e-0" target="c6vgpfZv6U2L_3fP67-e-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-5" value="&lt;font color=&quot;#0000ff&quot;&gt;result &lt;/font&gt;+= &quot;Y&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
-          <mxGeometry x="240" y="266" width="120" height="60" as="geometry" />
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-5" value="&lt;span style=&quot;color: rgb(51 , 51 , 255)&quot;&gt;guessResult&amp;nbsp;&lt;/span&gt;+= &quot;Y&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
+          <mxGeometry x="240" y="273" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c6vgpfZv6U2L_3fP67-e-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#FF3333;" parent="c6vgpfZv6U2L_3fP67-e-22" source="c6vgpfZv6U2L_3fP67-e-3" target="c6vgpfZv6U2L_3fP67-e-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-6" value="&lt;font color=&quot;#0000ff&quot;&gt;result &lt;/font&gt;+= &quot;G&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-6" value="&lt;span style=&quot;color: rgb(51 , 51 , 255)&quot;&gt;guessResult&amp;nbsp;&lt;/span&gt;+= &quot;G&quot;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="c6vgpfZv6U2L_3fP67-e-22" vertex="1">
           <mxGeometry x="240" y="366" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c6vgpfZv6U2L_3fP67-e-10" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#009900;" parent="c6vgpfZv6U2L_3fP67-e-22" source="c6vgpfZv6U2L_3fP67-e-3" target="c6vgpfZv6U2L_3fP67-e-6" edge="1">
@@ -251,13 +251,13 @@
         <mxCell id="c6vgpfZv6U2L_3fP67-e-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;" parent="jmRNwSgweu1uni4Kwibr-1" source="vj7jiwEQfoTY1QtWwPlF-0" target="c6vgpfZv6U2L_3fP67-e-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vj7jiwEQfoTY1QtWwPlF-0" value="&lt;font color=&quot;#000000&quot;&gt;Set &lt;/font&gt;index &lt;font color=&quot;#000000&quot;&gt;= 0&lt;br&gt;Set &lt;/font&gt;result &lt;font color=&quot;#000000&quot;&gt;= &quot;&quot;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#3333FF;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
+        <mxCell id="vj7jiwEQfoTY1QtWwPlF-0" value="&lt;font color=&quot;#000000&quot;&gt;Set &lt;/font&gt;index &lt;font color=&quot;#000000&quot;&gt;= 0&lt;br&gt;Set &lt;/font&gt;guessResult &lt;font color=&quot;#000000&quot;&gt;= &quot;&quot;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#3333FF;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
           <mxGeometry x="382" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9UP_NVbGV6668daRHjGv-3" value="Parameters:&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;word&lt;br&gt;guess&lt;br&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
+        <mxCell id="9UP_NVbGV6668daRHjGv-3" value="Parameters:&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;masterWord&lt;br&gt;guessWord&lt;br&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
           <mxGeometry x="212" y="55" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-23" value="Return &lt;font color=&quot;#0000ff&quot;&gt;result&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-23" value="Return&amp;nbsp;&lt;span style=&quot;color: rgb(51 , 51 , 255)&quot;&gt;guessResult&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
           <mxGeometry x="382" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c6vgpfZv6U2L_3fP67-e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="jmRNwSgweu1uni4Kwibr-1" source="c6vgpfZv6U2L_3fP67-e-20" target="c6vgpfZv6U2L_3fP67-e-23" edge="1">
@@ -266,7 +266,7 @@
         <mxCell id="c6vgpfZv6U2L_3fP67-e-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000FF;" parent="jmRNwSgweu1uni4Kwibr-1" source="c6vgpfZv6U2L_3fP67-e-25" target="c6vgpfZv6U2L_3fP67-e-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c6vgpfZv6U2L_3fP67-e-25" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;For each letter in&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#0000ff&quot;&gt;guess&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;fillColor=none;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
+        <mxCell id="c6vgpfZv6U2L_3fP67-e-25" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;For each letter in&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#0000ff&quot;&gt;guessWord&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;:&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;fillColor=none;" parent="jmRNwSgweu1uni4Kwibr-1" vertex="1">
           <mxGeometry x="382" y="140" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
