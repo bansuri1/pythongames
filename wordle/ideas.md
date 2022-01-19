@@ -1,0 +1,3 @@
+- add a difficulty customizer with different number of tries and word length
+- toggle for allow non-dictionary words
+- create gui
