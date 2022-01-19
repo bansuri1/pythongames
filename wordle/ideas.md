@@ -1,3 +1,7 @@
 - add a difficulty customizer with different number of tries and word length
 - toggle for allow non-dictionary words
-- create gui
+- if position and letter correct then show letter
+- if letter correct and position is incorrect then show letter in a sep line
+- different try again messages based on how good/bad the guess was 
+  - diff conditions e.g. if tried to guess all vowels
+  - if previously guessed letter and it was wrong etc.
