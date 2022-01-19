@@ -1,6 +1,3 @@
 
-  
-| Variable Name  | Description |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+Variable Name | Type | Default Value | Description
+---|---|---|---
