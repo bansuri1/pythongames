@@ -1,0 +1,1 @@
+- if user enters a word with a double letter and one of them is in the right place the result shows teh other letter as Y instead of R
