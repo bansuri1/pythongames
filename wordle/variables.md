@@ -24,3 +24,4 @@ tryAgainMessage|Not quite right...try again! Here's how you guessed:
 congratsMessage|You got it - well done!
 sorryMessage|Sorry, that's not correct! Here's the word I was thinking of:
 playAgainMessage|Would you like to play again?
+turnsMessage|Number of tries remaining: 
